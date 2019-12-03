@@ -1,0 +1,53 @@
+﻿<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name">BlogNote</string>
+    <string name="no_event"></string>
+    <string name="calendar_permission_required">Необходимо разрешение к календарю</string>
+    <string name="all_day">Весь день</string>
+    <string name="grant_access">Разрешить доступ</string>
+    <string name="today">Сегодня</string>
+    <string name="title">Title</string>
+    <string name="event_time">Время</string>
+    <string name="event_calendar">Event calendar</string>
+    <string name="warning_empty_title">Необходимо название</string>
+    <string name="choose_calendar">Выберите календарь</string>
+    <string name="create_event">Создать замечание</string>
+    <string name="edit_event">Изменить</string>
+    <string name="save">Сохранить</string>
+    <string name="delete">Удалить</string>
+    <string name="confirm_delete">Удалить?</string>
+    <string name="confirm_discard_changes">Отменить?</string>
+    <string name="warning_missing_calendar">Пожалуйста выберите календарь</string>
+    <string name="end_time">Конец\n%s</string>
+    <string name="default_calendar_name">Local Calendar</string>
+    <string name="event_created">Создано.</string>
+    <string name="event_updated">Обновлено.</string>
+    <string name="event_deleted">Удалено.</string>
+    <string name="morning">Утро</string>
+    <string name="afternoon">День</string>
+    <string name="night">Ночь</string>
+    <string name="fahrenheit">%1$.1f\u00b0F</string>
+    <string name="show_weather">Погода</string>
+    <string name="updating_weather" tools:ignore="TypographyEllipsis">Обновление погоды...</string>
+    <string name="location_permission_required">Необходимо включить геопозицию</string>
+    <string name="week_start">Начало недели</string>
+    <string name="saturday">Суббота</string>
+    <string name="sunday">Воскресенье</string>
+    <string name="monday">Понедельник</string>
+    <string name="open_drawer">Отерыть</string>
+    <string name="close_drawer">Закрыть</string>
+    <string name="calendars">Календари</string>
+    <string name="error_location">Неудалось определить локацию</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="whats_in_your_mind">Whats in your mind</string>
+    <string name="share_note">Share Note</string>
+    <string name="delete_notes">Delete Notes</string>
+    <string name="no_notes">No Notes !</string>
+
+    <string name="client_id">e3791cc2dc4f4bc8b9f20a34ff1c9f09f</string>
+    <string name="redirect_url">https://instagram.com/</string>
+    <string name="base_url">https://api.instagram.com/</string>
+    <string name="get_user_info_url">https://api.instagram.com/v1/users/self/?access_token=</string>
+
+</resources>

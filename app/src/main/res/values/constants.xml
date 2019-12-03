@@ -1,0 +1,7 @@
+
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+<string name="instagramRedirectUri">385974853605-kiqdg4fk4i9e68v2qbfijq3qf913plfj.apps.googleusercontent.com</string>
+<string name="instagramClientId">https://blognote-bb30c.firebaseio.com/</string>
+
+</resources>

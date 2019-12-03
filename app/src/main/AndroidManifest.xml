@@ -1,0 +1,54 @@
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.example.blognote">
+
+    <!-- Required by Calendar Provider -->
+    <uses-permission android:name="android.permission.READ_CALENDAR" />
+    <uses-permission android:name="android.permission.WRITE_CALENDAR" />
+
+    <!-- Required for weather sync -->
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+
+    <application
+        android:allowBackup="true"
+        android:fullBackupContent="@xml/backup"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme"
+        tools:ignore="GoogleAppIndexingWarning">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".EditActivity"
+            android:windowSoftInputMode="adjustResize">
+        </activity>
+        <receiver android:name=".weather.WeatherSyncAlarmReceiver" />
+        <service android:name=".weather.WeatherSyncService" />
+        <activity android:name=".NotepadActivity" >
+        </activity>
+        <activity android:name=".EditNoteActivity">
+        </activity>
+        <activity android:name=".calendarnote">
+        </activity>
+        <activity android:name=".calculator">
+        </activity>
+        <activity android:name=".doxodactivity">
+        </activity>
+        <activity android:name=".calculator_temp">
+        </activity>
+        <activity android:name=".rasxodactivity">
+        </activity>
+        <activity android:name=".settings">
+        </activity>
+
+
+    </application>
+</manifest>

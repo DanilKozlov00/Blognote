@@ -1,0 +1,40 @@
+{
+  "project_info": {
+    "project_number": "385974853605",
+    "firebase_url": "https://blognote-bb30c.firebaseio.com",
+    "project_id": "blognote-bb30c",
+    "storage_bucket": "blognote-bb30c.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:385974853605:android:69e2d2088c7bcf84a1590c",
+        "android_client_info": {
+          "package_name": "com.example.blognote"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "385974853605-kiqdg4fk4i9e68v2qbfijq3qf913plfj.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyB-PbnP9mobUpuDuv-lUgKAC-Aob8jIgAI"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "385974853605-kiqdg4fk4i9e68v2qbfijq3qf913plfj.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
