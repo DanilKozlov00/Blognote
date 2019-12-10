@@ -40,6 +40,7 @@ import android.widget.CompoundButton;
 import android.widget.TextView;
 import android.widget.Toast;
 
+import com.example.blognote.firebase.EmailPasswordActivity;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.mikepenz.materialdrawer.AccountHeader;
@@ -145,6 +146,7 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
         List<IDrawerItem> iDrawerItems = new ArrayList<>();
         iDrawerItems.add(new PrimaryDrawerItem().withName("Календарь").withIcon(R.drawable.ic_home_black_24dp));
         iDrawerItems.add(new PrimaryDrawerItem().withName("Заметки").withIcon(R.drawable.ic_note_black_24dp));
+        iDrawerItems.add(new PrimaryDrawerItem().withName("Калькулятор").withIcon(R.drawable.ic_note_black_24dp));
         iDrawerItems.add(new PrimaryDrawerItem().withName("Калькулятор").withIcon(R.drawable.ic_note_black_24dp));
 
         // sticky DrawItems ; footer menu items
@@ -576,6 +578,10 @@ public class MainActivity extends AppCompatActivity implements LoaderManager.Loa
         }
         if (position==-1){
             Intent intent = new Intent(this, settings.class);
+            startActivity(intent);
+        }
+        if (position==4){
+            Intent intent = new Intent(this, EmailPasswordActivity.class);
             startActivity(intent);
         }
         return false;

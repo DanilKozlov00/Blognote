@@ -48,6 +48,8 @@
         </activity>
         <activity android:name=".settings">
         </activity>
+        <activity android:name=".firebase.EmailPasswordActivity">
+        </activity>
 
 
     </application>
